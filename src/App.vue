@@ -1,25 +1,19 @@
 <template>
   <div id="app">
-    <h2>{{name}}</h2>
+    <h2>{{getName}}</h2>
   </div>
 </template>
 
 <script>
 //import { FETCH_POSTS } from './store/modules/actions.types'
 import {mapActions} from 'vuex'
-import {mapState} from 'vuex'
+import {mapGetters} from 'vuex'
 
 export default {
-  name: 'app',
-  data () {
-    return {
-      msg: 'Welcome to Your Vue.js App'
-    }
-  },
   computed:{
-    ...mapState([
-      'name'
-    ])
+    ...mapGetters([
+      'getName'
+    ]),
   },
   methods:{
       ...mapActions([

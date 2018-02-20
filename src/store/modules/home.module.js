@@ -16,7 +16,9 @@ const state = {
 };
 
 const getters = {
-
+  getName(state){
+    return state.name;
+  }
 };
 
 const mutations = {
