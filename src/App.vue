@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <h2>{{getName}}</h2>
+    <button type="button" @click='fetchPosts'>KLIK TO TEST FETCH ACTION</button>
   </div>
 </template>
 

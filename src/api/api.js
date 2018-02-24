@@ -1,10 +1,10 @@
 import Vue from 'vue'
 import axios from 'axios'
 import VueAxios from 'vue-axios'
-import {API_URL, IMGUR_CLIENT_ID } from './endpoints'
+import {ROOT } from './endpoints'
 
 Vue.use(VueAxios, axios)
-Vue.axios.defaults.baseURL = API_URL
+Vue.axios.defaults.baseURL = ROOT
 
 
 const api = {

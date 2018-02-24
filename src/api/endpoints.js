@@ -1,1 +1,1 @@
-export const API_URL = 'https://jsonplaceholder.typicode.com'
+export const ROOT = 'https://jsonplaceholder.typicode.com'
