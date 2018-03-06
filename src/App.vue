@@ -16,7 +16,7 @@ export default {
     return {
       data:'From Data Obj'
     }
-  }
+  },
   computed:{
     ...mapGetters([
       'getName'
