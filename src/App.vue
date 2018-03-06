@@ -6,7 +6,7 @@
 </template>
 
 <script>
-//import { FETCH_POSTS } from './store/modules/actions.types'
+import { FETCH_POSTS } from './store/modules/actions.types'
 import {mapActions} from 'vuex'
 import {mapGetters} from 'vuex'
 
@@ -18,7 +18,7 @@ export default {
   },
   methods:{
       ...mapActions([
-        'fetchPosts'
+        FETCH_POSTS,
       ])
   },
 
